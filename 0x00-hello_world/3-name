@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -g $CFILE|  mv  a.out cisfun.out
+gcc -g -o cisfun $CFILE
