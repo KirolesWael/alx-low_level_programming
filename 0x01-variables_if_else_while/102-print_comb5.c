@@ -13,17 +13,18 @@ int main(void)
 	{
 		for (d2 = d1 + 1; d2 < 100; d2++)
 		{
-			putchar((d1 / 10) + 48);
-			putchar((d1 % 10) + 48);
-			putchar(' ');
-
-			putchar((d2 / 10) + 48);
-			putchar((d2 / 10) + 48);
-
-			if ((d1 == 98) && (d2 == 99))
-				break;
-			putchar(',');
-			putchar(' ');
+			if (d2 > d1)
+			{
+				putchar((d1 / 10) + 48);
+				putchar((d1 % 10) + 48);
+				putchar(' ');
+				putchar((d2 / 10) + 48);
+				putchar((d2 % 10) + 48);
+				if ((d1 == 98) && (d2 == 99))
+					break;
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 
