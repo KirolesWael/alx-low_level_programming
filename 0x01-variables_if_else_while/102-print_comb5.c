@@ -9,36 +9,24 @@ int main(void)
 {
 	int d1;
 	int d2;
-	int d3;
-	int d4;
-	int i;
-	int j;
-
-	for (d1 = 48; d1 <= 57; d1++)
+	for (d1 = 0; d1 < 100; d1++)
 	{
-		for (d2 = 48; d2 <= 57; d2++)
+		for (d2 = d1 + 1; d2 < 100; d2++)
 		{
-			for (d3 = 48; d3 <= 57 ; d3++)
-			{
-				for (d4 = 48; d4 <= 57; d4++)
-				{
-					i = d1 * 10 + d2;
-					j = d3 * 10 + d4;
-					if (i <= j)
-						continue;
-					putchar(d1);
-					putchar(d2);
-					putchar(' ');
-					putchar(d3);
-					putchar(d4);
-					if ((d1 == 56) && (d2 == 57) && (d3 == 56) && (d4 == 56))
-						break;
-					putchar(',');
-					putchar(' ');
-				}
-			}
+			putchar((d1 / 10) + 48);
+			putchar((d1 % 10) + 48);
+			putchar(' ');
+
+			putchar((d2 / 10) + 48);
+			putchar((d2 / 10) + 48);
+
+			if ((d1 == 98) && (d2 == 99))
+				break;
+			putchar(',');
+			putchar(' ');
 		}
 	}
+
 	putchar('\n');
 	return (0);
 }
