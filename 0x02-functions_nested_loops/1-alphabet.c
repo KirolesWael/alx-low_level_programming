@@ -2,8 +2,7 @@
 #include"main.h"
 
 /**
- *
- print_alphabet - Enterypoint
+ *print_alphabet - Enterypoint
  * Description: prints all lowercase  followed by a new line.
  *
  * Return : 0
