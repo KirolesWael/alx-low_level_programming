@@ -12,15 +12,15 @@
 
 int _abs(int i)
 {
-	if (n > 0)
+	if (i > 0)
 	{
-		return (n);
+		return (i);
 	}
-	else if (n =0)
+	else if (i =0)
 	{
 		return (0);
 	}else
 	{
-		return (0 - n);
+		return (0 - i);
 	}
 }
