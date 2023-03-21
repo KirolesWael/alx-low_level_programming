@@ -19,7 +19,8 @@ int _abs(int i)
 	else if (i == 0)
 	{
 		return (0);
-	}else
+	}
+	else
 	{
 		return (0 - i);
 	}
