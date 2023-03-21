@@ -15,20 +15,15 @@ void times_table(void)
 {
 	int i, j, result;
 
-	/*first character*/
 	for (i = 0; i <= 9; i++)
 	{
-		/*second character*/
 		for (j = 0; j <= 9; j++)
 		{
-			/*print 0 for the first column*/
 			if (j == 0)
 			{
 				_putchar('0');
 				continue;
 			}
-
-			
 			result = i * j;
 			_putchar(',');
 			_putchar(' ');
