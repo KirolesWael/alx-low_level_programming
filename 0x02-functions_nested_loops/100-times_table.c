@@ -24,7 +24,7 @@ void print_times_table(int n)
 				_putchar(' ');
 				_putchar((i * j) / 10 + '0');
 				_putchar((i * j) % 10 + '0');
-			} else if ((i * j < 10) || (i * j != 0))
+			} else if ((i * j < 10) || (j != 0))
 			{
 				_putchar(',');
 				_putchar(' ');
