@@ -19,7 +19,10 @@ int main(void)
 		new = n1 + n2;
 		n1 = n2;
 		n2 = new;
-		printf("%ld, ", n2);
+		printf("%ld", n2);
+		if (i == 48)
+			break;
+		printf(", ");
 	}
 
 	return (0);
