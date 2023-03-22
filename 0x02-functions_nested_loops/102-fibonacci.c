@@ -14,13 +14,13 @@ int main(void)
 
 	printf("%ld, %ld, ", n1, n2);
 
-	for (i = 0; i <= 48; i++)
+	for (i = 0; i <= 47; i++)
 	{
 		new = n1 + n2;
 		n1 = n2;
 		n2 = new;
 		printf("%ld", n2);
-		if (i == 48)
+		if (i == 47)
 			break;
 		printf(", ");
 	}
