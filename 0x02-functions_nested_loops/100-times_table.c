@@ -23,6 +23,7 @@ void print_times_table(int n)
 				_putchar('\n');
 				continue;
 			}
+			_putchar(' ');
 			_putchar(',');
 		}
 	}
