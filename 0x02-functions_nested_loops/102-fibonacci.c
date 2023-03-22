@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i, n1, n2, new;
+	long int i, n1, n2, new;
 
 	n1 = 1;
 	n2 = 2;
