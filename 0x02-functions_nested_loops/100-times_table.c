@@ -19,17 +19,13 @@ void print_times_table(int n)
 		{
 			if ((i * j >= 10) && (i * j < 100))
 			{
-				printf(",  ");
+				printf(",  ")
 				_putchar((i * j) / 10 + '0');
 				_putchar((i * j) % 10 + '0');
-				if (j == n)
-					continue;
 			} else if (i * j < 10)
 			{
 				printf(",   ");
 				_putchar((i * j) + '0');
-				if (j == n)
-					continue;
 			}
 			else
 			{
@@ -37,8 +33,6 @@ void print_times_table(int n)
 				_putchar((i * j) /  100 + '0');
 				_putchar((i * j) / 10 + '0');
 				_putchar((i * j) % 10 + '0');
-				if (j == n)
-					continue;
 			}
 		}
 			_putchar('\n');
