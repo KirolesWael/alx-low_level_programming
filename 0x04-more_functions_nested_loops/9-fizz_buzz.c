@@ -22,4 +22,5 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
+	return (0);
 }
