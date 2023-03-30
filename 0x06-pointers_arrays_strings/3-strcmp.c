@@ -10,18 +10,13 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int s1_len, s2_len;
+	int i;
 
-	s1_len = 0;
-	s2_len = 0;
-	while (s1[s1_len] != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		s1_len++;
+		if (s[i] >= 'a' && s[i] <= 'z')
+			s[i] = s[i] - 32;
 	}
 
-	while (s2[s2_len] != '\0')
-	{
-		s2_len++;
-	}
-	return (s1_len - s2_len);
+	return (s);
 }
