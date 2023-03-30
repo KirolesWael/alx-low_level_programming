@@ -22,7 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		s_len++;
 	}
-	if (n > s_len)
+	if (n >= s_len)
 		n = s_len + 1;
 	for (i = 0; i < n; i++)
 	{
