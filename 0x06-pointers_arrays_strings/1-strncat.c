@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
-  *_strcat - cat 2 strings
+  *_strncat - cat 2 strings
   *@dest : destniation
   *@src : source string
+  *@n: tells us how manybits to use
   *return : cat string
   */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int d_len, s_len, i;
 
@@ -21,7 +22,9 @@ char *_strcat(char *dest, char *src)
 	{
 		s_len++;
 	}
-	for (i = 0; src[i] != '\0'; i++)
+	if (n > s_len)
+		n = s_len;
+	for (i = 0; i < n; i++)
 	{
 		dest[d_len + i] = src [i];
 	}
