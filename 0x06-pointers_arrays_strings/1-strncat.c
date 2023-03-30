@@ -5,7 +5,7 @@
   *@dest : destniation
   *@src : source string
   *@n: tells us how manybits to use
-  *return : cat string
+  *Return: a pointer to the resulting string dest
   */
 char *_strncat(char *dest, char *src, int n)
 {

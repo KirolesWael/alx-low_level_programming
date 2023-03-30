@@ -4,7 +4,7 @@
   *_strcat - cat 2 strings
   *@dest : destniation
   *@src : source string
-  *return : cat string
+  *Return: a pointer to the resulting string
   */
 char *_strcat(char *dest, char *src)
 {
