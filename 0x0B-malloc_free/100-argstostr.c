@@ -27,7 +27,7 @@ char *argstostr(int ac, char **av)
 		}
 		i++;
 	}
-	concstr = malloc(size * sizeof(int));
+	concstr = malloc(size * sizeof(char));
 	if (concstr == NULL)
 		return (NULL);
 
@@ -47,5 +47,4 @@ char *argstostr(int ac, char **av)
 		k++;
 	}
 	return (concstr);
-	
 }
