@@ -21,11 +21,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	d = malloc(sizeof(dog_t));
 	if (d == NULL)
 		return (NULL);
-	nname = malloc(sizeof(name));
+	nname = malloc(sizeof(name) + 1);
 	if (!nname)
 		return (NULL);
 
-	nowner = malloc(sizeof(owner));
+	nowner = malloc(sizeof(owner) + 1);
 	if (!nowner)
 		return (NULL);
 	i = 0;
