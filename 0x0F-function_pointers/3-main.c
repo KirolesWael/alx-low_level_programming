@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	if ((func == op_div || func == op_mod)&& b  == 0)
+	if ((func == op_div || func == op_mod) && b  == 0)
 	{
 		printf("Error\n");
 		exit(100);
