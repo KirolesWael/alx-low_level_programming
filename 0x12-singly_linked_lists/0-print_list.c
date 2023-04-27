@@ -13,14 +13,12 @@ size_t print_list(const list_t *h)
 	{
 		if (!h->str)
 		{
-			printf("[0] (nil)");
+			printf("[0] (nil)\n");
 		}
 		else
-		{
-			printf("[%i] %s", h->len, h->str);
-			h = h->next;
-			s++;
-		}
+			printf("[%i] %s\n", h->len, h->str);
+		h = h->next;
+		s++;
 	}
 	return (s);
 }
