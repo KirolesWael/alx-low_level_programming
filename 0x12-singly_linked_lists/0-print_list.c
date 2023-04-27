@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * print_list - prints all the elements of a linked list
@@ -18,7 +18,7 @@ size_t print_list(const list_t *h)
 		else
 		{
 			printf("[%i] %s", h->len, h->str);
-			h = h->next
+			h = h->next;
 			s++;
 		}
 	}
