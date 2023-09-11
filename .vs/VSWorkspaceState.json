@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\0x17-doubly_linked_lists"
+    "\\0x17-doubly_linked_lists",
+    "\\0x1A-hash_tables"
   ],
   "SelectedNode": "\\0x17-doubly_linked_lists\\8-delete_dnodeint.c",
   "PreviewInSolutionExplorer": false
