@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\0x17-doubly_linked_lists",
-    "\\0x1A-hash_tables"
+    "\\0x1A-hash_tables",
+    "\\0x1C-makefiles"
   ],
-  "SelectedNode": "\\0x17-doubly_linked_lists\\8-delete_dnodeint.c",
+  "SelectedNode": "\\0x1C-makefiles\\school.c",
   "PreviewInSolutionExplorer": false
 }
